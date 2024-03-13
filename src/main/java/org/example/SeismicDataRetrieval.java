@@ -43,5 +43,6 @@ public class SeismicDataRetrieval {
             }
         }
 
+        System.out.println("Events fetched: " + events.size());
     }
 }
