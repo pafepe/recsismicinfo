@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b86a9760-8559-4e36-bef8-ae2d6dc27aab" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="b86a9760-8559-4e36-bef8-ae2d6dc27aab" name="Changes" comment="initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,9 +17,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2dcZGIEGce5yDXV5ix2LhYv3j43" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -26,15 +28,44 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Maven.recsismicinfo [install-file...].executor": "Run",
+    "Maven.recsismicinfo [install...].executor": "Run",
+    "Maven.recsismicinfo [install:IRIS-WS-2.20.1.jar...].executor": "Run",
+    "Maven.recsismicinfo [install:install-file...].executor": "Run",
+    "Maven.recsismicinfo [install].executor": "Run",
+    "Maven.recsismicinfo [package].executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/pafep/Downloads/IRIS-WS-2.20.1.jar",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/pafep/IdeaProjects/recsismicinfo/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.file-colors",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn install:IRIS-WS-2.20.1.jar -DgroupId=edu.iris -DartifactId=IRIS-WS -Dversion=2.20.1 -Dpackaging=jar -Dfile=C:\Users\pafep\Downloads" />
+      <command value="mvn install:IRIS-WS-2.20.1.jar -DgroupId=edu.iris -DartifactId=IRIS-WS -Dversion=2.20.1 -Dpackaging=jar -Dfile=\Downloads" />
+      <command value="mvn install -DgroupId=edu.iris -DartifactId=IRIS-WS -Dversion=2.20.1 -Dpackaging=jar -Dfile=C:\Users\pafep\Downloads\IRIS-WS-2.20.1.jar" />
+      <command value="mvn install-file -DgroupId=edu.iris -DartifactId=IRIS-WS -Dversion=2.20.1 -Dpackaging=jar -Dfile=C:\Users\pafep\Downloads\IRIS-WS-2.20.1.jar" />
+      <command value="mvn install:install-file -DgroupId=edu.iris -DartifactId=IRIS-WS -Dversion=2.20.1 -Dpackaging=jar -Dfile=C:\Users\pafep\Downloads\IRIS-WS-2.20.1.jar" />
+    </option>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -50,22 +81,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710309264695</updated>
-      <workItem from="1710309266234" duration="3000" />
+      <workItem from="1710309266234" duration="3259000" />
+      <workItem from="1710313424741" duration="909000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1710309324536</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710309324536</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
 </project>
